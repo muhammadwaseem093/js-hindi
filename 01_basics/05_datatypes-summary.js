@@ -43,4 +43,28 @@ const myFunciton = function (){
 }
 
 
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++
+// stack (Primitive)
 
+let myYoutubeName = "waseem.com";
+
+let anotherName = myYoutubeName;
+
+anothername = "main r aap";
+
+console.log(myYoutubeName);
+console.log(anothername);
+
+
+
+// heap (Non-Primitive)
+let user1 = {
+    email:"any@gmail.com",
+    any : "user@example"
+}
+
+let user2 = user1
+
+user2.email= "newemail@gmail.com";
+console.log(user1.email);
+console.log(user2.email);
