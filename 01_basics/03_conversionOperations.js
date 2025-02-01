@@ -19,6 +19,11 @@ let bigStringToNumber = Number(example7)
 // convert example8 into boolean 
 let numberToBoolean = Boolean(example8)
 
+// "33" => 33
+// "33abc" => NaN
+// true => 1; false=>0
+
+
 
 
 
